@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jomolhari&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #000;
+    font-family: 'Jomolhari', serif;
+    margin-bottom: 64px;
+}
+
+.container {
+    width: 90%;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.nav__item a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner {
+    width: 100vw;
+    height: 416px;
+    background: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    margin-top: 37px;
+    color: #FFF;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* swiper */
+
+.swiper {
+    width: 95vw;
+    margin-top: 34px;
+    gap: 93px !important;
+}
+
+.swiper-slide {
+    width: 266px !important;
+    height: 361px !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    border: 3px solid #F0DE36;
+    background: #1E1E1E;
+    padding: 5px;
+}
+
+.swiper-slide .card-img {
+    /* display: block; */
+    width: 100%;
+    height: 172px;
+    object-fit: cover;
+}
+
+
+/*  */
+
+.card-name {
+    width: 100%;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding: 7px;
+}
+
+.card-massage {
+    max-width: 253px;
+    color: #fff;
+    height: 57px;
+    overflow: hidden;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7.5px;
+    word-break: break-all;
+}
+
+.swiper-pagination-bullet {
+    margin-top: 30px;
+    display: none;
+}
+
+.swiper-wrapper {
+    gap: 73px;
+}
+
+.about-me {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name {
+    width: 200px;
+    padding: 0;
+    height: 25px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.role {
+    color: #787878;
+    font-family: Jomolhari;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/sign-up.css">
+</head>
+
+<body>
+    <form id="form">
+        <img class="logo" width="188" src="../images/sign-upLogo.svg" alt="">
+        <h1 class="sig__title">Login</h1>
+        <input type="email" id="email" placeholder="Your email" required>
+        <div class="password-wrapper">
+            <input type="password" id="password" placeholder="Your password" required>
+            <button type="button" class="eye-btn"><i class="fa-solid fa-eye"></i></button>
+        </div>
+        <p id="formError" style="color: red; display: none;">Registration failed. Please try again</p>
+
+        <p class="login-link">Don’t you have an account?<a href="./sign-up.html">Sign up.</a></p>
+        <button class="loading" type="submit"><img height="50" class="disabled" src="../images/Rolling-1s-200px.gif" alt="Loading"> Sign Up</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../scripts/sign-in.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jomolhari', serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    gap: 20px 0;
+    text-align: center;
+    max-width: 450px;
+    border-radius: 76px;
+    background: #F5C147;
+}
+
+form input {
+    max-width: 378px;
+    padding: 14px 0;
+    font-size: 20px;
+    outline: none;
+    text-indent: 22px;
+    border-radius: 17px;
+    border: 3px solid #000;
+    background: #FFF;
+    font-weight: 400;
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    max-width: 378px;
+    width: 100%;
+    padding: 14px 0;
+    font-size: 20px;
+    outline: none;
+    text-indent: 22px;
+    border-radius: 17px;
+    border: 3px solid #000;
+    background: #FFF;
+    font-weight: 400;
+}
+
+.password-wrapper button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    right: 52px;
+}
+
+form>button {
+    max-width: 203px;
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    transition: 0.2s;
+    padding: 15px 0;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form>button:disabled {
+    color: #000;
+    background: #f1f2f3;
+    padding: 0;
+}
+
+form>button:active {
+    transform: scale(0.95);
+}
+
+i {
+    border-right: none;
+}
+
+.login-link {
+    text-align-last: left;
+    color: #000;
+}
+
+.logo {
+    text-align: center;
+    margin: auto;
+}
+
+.sig__title {
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* input:invalid {
+    border-color: red;
+} */
+
+.disabled {
+    display: none;
+}
